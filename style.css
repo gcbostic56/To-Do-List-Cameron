@@ -1,0 +1,47 @@
+body {
+    background-image: url("https://gdj-inr5u0ip5pewom.stackpathdns.com/wp-content/uploads/2012/07/background-pattern-1.jpg")
+}
+h1 {
+    background-color: gold;
+}
+.BOX {
+    display:flex;
+    padding: 3%;
+    flex-direction: column;
+    margin-left: 35%;
+    margin-right: 35%;
+    align-items: center;
+    background-color: bisque;
+    border-color: white;
+    border-style: solid;
+    border-width: 3%;
+}
+li {
+    text-align: center;
+    align-content: center;
+    margin: auto;
+    font-size: 120%;
+}
+li:hover {
+    background-color: black;
+    color: white;
+}
+
+#list {
+    text-align: center;
+}
+
+#go {
+    scale: 20%;
+    background-color: blue;
+    border-radius: 10%;
+    color: white;
+    padding: 2%
+}
+
+.image {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+}
